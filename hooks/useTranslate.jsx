@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Make sure to have the correct API key in the .env file
-const apiKey = process.env.GEMINI_API_KEY || 'AIzaSyCQWe7CPc6l7IaokhOhwbWXBCWtZpKu0s0';
+const apiKey = process.env.GEMINI_API_KEY || 'your_api_key';
 
 const useTranslate = (sourceText, selectedLanguage) => {
   const [targetText, setTargetText] = useState("");
